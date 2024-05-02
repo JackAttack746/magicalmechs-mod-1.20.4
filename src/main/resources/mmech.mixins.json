@@ -1,0 +1,11 @@
+{
+	"required": true,
+	"package": "com.badmodstudios.mmech.mixin",
+	"compatibilityLevel": "JAVA_17",
+	"mixins": [
+      "MechMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
