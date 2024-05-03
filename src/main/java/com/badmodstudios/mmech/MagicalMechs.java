@@ -14,10 +14,13 @@ public class MagicalMechs implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+		/* Here we go */
+		long start = System.currentTimeMillis
 		LOGGER.info("****Initializing****");
 		ModItems.RegisterModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
+		LOGGER.info("Successfully enabled " + MOD_ID + " in " + start - System.currentTimeMillis + "ms");
 
 	}
 }

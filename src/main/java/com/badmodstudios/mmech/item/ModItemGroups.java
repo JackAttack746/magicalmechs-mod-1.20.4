@@ -26,6 +26,6 @@ public class ModItemGroups {
                     }).build());
 
     public static void registerItemGroups(){
-        MagicalMechs.LOGGER.info("Registering Item Groups for " + MagicalMechs.MOD_ID);
+        MagicalMechs.LOGGER.info("Registering Item Groups for " + MagicalMechs.MOD_ID + "[1/1]");
     }
 }
