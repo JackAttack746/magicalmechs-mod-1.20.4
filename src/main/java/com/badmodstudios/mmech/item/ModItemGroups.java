@@ -20,6 +20,8 @@ public class ModItemGroups {
                         entries.add(ModBlocks.MANA_ORE_DEEPSLATE);
                         entries.add(ModItems.MANA_CRYSTAL);
                         entries.add(ModItems.SPELL_BOOK);
+                        entries.add(ModItems.CHARGED_MANA_CRYSTAL);
+                        entries.add(ModItems.CUT_MANA_CRYSTAL);
 
                     }).build());
 
