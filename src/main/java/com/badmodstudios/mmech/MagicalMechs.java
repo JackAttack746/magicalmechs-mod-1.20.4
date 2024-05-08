@@ -10,7 +10,8 @@ import org.slf4j.LoggerFactory;
 
 public class MagicalMechs implements ModInitializer {
 	public static final String MOD_ID = "mmech";
-    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
+	public static final String MOD_NAME = "MagicalMechs";
+    public static final Logger LOGGER = LoggerFactory.getLogger(MOD_NAME);
 
 	@Override
 	public void onInitialize() {
@@ -20,7 +21,7 @@ public class MagicalMechs implements ModInitializer {
 		ModItems.RegisterModItems();
 		ModItemGroups.registerItemGroups();
 		ModBlocks.registerModBlocks();
-		LOGGER.info("Successfully enabled " + MOD_ID + " in " + start - System.currentTimeMillis + "ms");
+		LOGGER.info("Successfully enabled " + MOD_NAME + " in " + start - System.currentTimeMillis + "ms");
 
 	}
 }

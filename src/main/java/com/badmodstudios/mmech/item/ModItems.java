@@ -25,7 +25,7 @@ public class ModItems {
         int loaded;
         int total = 5;
         for (loaded = 0; loaded < total; loaded++){
-            MagicalMechs.LOGGER.info("Registering Mod Items for " + MagicalMechs.MOD_ID + ", [" + loaded + "/" + "total" + "]"); //more useless counters
+            MagicalMechs.LOGGER.info("Registering Mod Items for " + MagicalMechs.MOD_NAME + ", [" + loaded + "/" + "total" + "]"); //more useless counters
         }
     }
 }

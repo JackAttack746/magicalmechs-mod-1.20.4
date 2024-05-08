@@ -34,7 +34,7 @@ public class ModBlocks {
         int loaded;
         int total = 2;
         for (loaded = 0; loaded < total; loaded++){ //for loop my beloved
-            MagicalMechs.LOGGER.info("Registering Mod Blocks for " + MagicalMechs.MOD_ID + ", [" + loaded + "/" + "total" + "]"); //yay, unnecessary counters
+            MagicalMechs.LOGGER.info("Registering Mod Blocks for " + MagicalMechs.MOD_NAME + ", [" + loaded + "/" + "total" + "]"); //yay, unnecessary counters
         }
     }
 }
